@@ -5,4 +5,4 @@ $.ajax({
 })
 .then(
   // render the data
-  });
+);
