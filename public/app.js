@@ -4,7 +4,7 @@ $.ajax({
 	url:'https://api.github.com/user/repos?type=owner',
 	method: 'GET',
 	headers: {
-		Authorization: githubToken
+		Authorization: githubToken}
     //Authorization: `token ${githubToken}`}
 })
 .then(data => {
